@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class ComputerDirectorTest {
     @Test
-    void contructT410() {
+    void constructT410() {
         ComputerDirector director = new ComputerDirector();
         Computer T410 = director.constructT410();
         Computer X201 = director.constructX201();
@@ -14,7 +14,7 @@ class ComputerDirectorTest {
     }
 
     @Test
-    void contructX201() {
+    void constructX201() {
         assert(true);
     }
 
